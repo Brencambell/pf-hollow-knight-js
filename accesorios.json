@@ -1,0 +1,109 @@
+{
+  
+  "equipamiento1": {
+    "title": "AMULETO",
+    "description": "Un amuleto es un objeto mágico que se utiliza para proporcionar protección o buena suerte.",
+    "items": [
+      {
+        "name": "BUG",
+        "icon": "bi bi-bug",
+        "description": "Un amuleto en forma de insecto que protege contra las enfermedades y las plagas."
+      },
+      {
+        "name": "GEM",
+        "icon": "bi bi-gem",
+        "description": "Un amuleto en forma de piedra preciosa que atrae la riqueza y la buena fortuna."
+      },
+      {
+        "name": "CAPSULE",
+        "icon": "bi bi-capsule",
+        "description": "Un amuleto en forma de cápsula que otorga energía y vitalidad al portador."
+      },
+      {
+        "name": "CHAIN",
+        "icon": "bi bi-link-45deg",
+        "description": "Un amuleto en forma de cadena que proyege contra los ataques con elementos metálicos."
+      }
+    ]
+  },
+    "equipamiento2": { 
+      "title": "HECHIZO",
+      "description": "Un hechizo es un acto de magia que se utiliza para lograr un efecto deseado.",
+      "items": [
+        {
+          "name": "DROPLET",
+          "icon": "bi bi-droplet",
+          "description": "Un hechizo que invoca gotas de agua para limpiar y purificar el ambiente."
+        },
+        {
+          "name": "FIRE",
+          "icon": "bi bi-fire",
+          "description": "Un hechizo que invoca llamas para proteger y destruir a los enemigos."
+        },
+        {
+          "name": "HURRICANE",
+          "icon": "bi bi-hurricane",
+          "description": "Un hechizo que invoca un poderoso viento que puede destruir o llevar a los enemigos lejos."
+        },
+        {
+          "name": "LIGHTNING",
+          "icon": "bi bi-lightning",
+          "description": "Un hechizo que invoca un poderoso rayo eléctrico en contra de tus enemigos."
+        }
+      ]
+  },
+    "equipamiento3": { 
+      "title": "ARMA",
+      "description": "Un arma es un objeto utilizado para infligir daño o derrotar a un enemigo.",
+      "items": [
+        {
+          "name": "HAMMER",
+          "icon": "bi bi-hammer",
+          "description": "Un arma de mano que se utiliza para golpear y aplastar a los enemigos."
+        },
+        {
+          "name": "ARROW",
+          "icon": "bi bi-heart-arrow",
+          "description": "Un arma a distancia que dispara flechas para derribar a los enemigos."
+        },
+        {
+          "name": "SHIELD",
+          "icon": "bi bi-shield",
+          "description": "Un arma defensiva que se utiliza para bloquear y proteger al portador de los ataques enemigos."
+        },
+        {
+          "name": "WAND",
+          "icon": "bi bi-magic",
+          "description": "Un arma para atacar a tu enemigo con magia. Requiere entrenaientos con un maestro."
+        }
+      ]
+    },
+  
+    "equipamiento4": {
+      "title": "HABILIDAD",
+      "description": "Una habilidad es una capacidad especial que permite al portador realizar acciones únicas o aumentar sus habilidades físicas o mentales.",
+      "items": [
+        {
+          "name": "HEARING",
+          "icon": "bi bi-ear",
+          "description": "Una habilidad que aumenta la percepción auditiva del portador y le permite escuchar sonidos a larga distancia."
+        },
+        {
+          "name": "HYPNOTIZE",
+          "icon": "bi bi-hypnotize",
+          "description": "Una habilidad que permite al portador controlar la mente de los enemigos y hacer que hagan su voluntad."
+        },
+        {   
+          "name": "RADIOACTIVE",
+          "icon": "bi bi-radioactive",
+          "description": "Una habilidad que permite al portador generar radioactividad contra sus enemigos."
+        },
+        {   
+          "name": "TORNADO",
+          "icon": "bi bi-tornado",
+          "description": "Una habilidad que permite al portador controlar el viento y poder generar fuertes tornados en contra de su enemigo."
+        }
+      ]
+    }
+  
+}

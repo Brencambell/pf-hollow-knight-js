@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Hollow Knight</title>
+</head>
+<body>
+
+    <!-- Menu -->
+    <header class="container-fluid sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark" id="mainNav" id="top"> 
+            <div class="container">
+                <a class="col-4" href="./index.html"><img src="./assets/images/logowhite-hollow-knight.png" width="30%" height="auto" class="img-fluid" alt="Logo Hollow Knight Menu" /></a>
+                <button class="col-8 buttonPrincipal mt-0 position-sticky d-flex justify-content-center align-items-center"><a href="./demo1.html">Jugar demo</a></button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Portada -->
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <video class="col-12" autoplay muted loop src="./assets/videos/hollow-knight-background-black.mp4" type="video/mp4" alt="Hollow Knight wallpaper video black background"></video>
+                </div>
+            </div>
+        </section>
+
+        <!-- Explicación -->
+        <section id="explicacionSection">
+            <h2 class="text-center">DEMO<br>Cómo crear a tú personaje</h2>
+            <h4 class="text-center">Juega al demo de prueba y sumergete en la <i>creación de tu personaje</i> siguiendo las instrucciones.</h4>
+            <div class="container">
+                <div class="row m-2">
+                    <div class="col-lg-3 text-center">
+                        <i class="bi bi-1-circle-fill" style="font-size: 6em"></i>
+                        <h4>Elige a tu personaje</h4>
+                        <p>Más abajo en esta misma página, tendrás la posibilidad de elegir 1 de entre 4 personajes que formarán parte del lanzamiento oficial de Hollow Knight. Lee la breve descripción de cada personaje y elige uno.</p>
+                    </div>
+
+                    <div class="col-lg-3 text-center">
+                        <i class="bi bi-2-circle-fill" style="font-size: 6em"></i>
+                        <h4>Tira los dados</h4>
+                        <p>Luego, deberas definir la vida, fuerza y defenza de tu personaje tirando los dados. Los número serán valores del 1 al 100, siendo 100 lo más elevado. ¿Quieres que tu personaje tenga buenos valores? Dedicale tiempo a tirar los dados y cuando estos valores sean de tu agrado, guardalos.</p>                  
+                    </div>
+
+                    <div class="col-lg-3 text-center">
+                        <i class="bi bi-3-circle-fill" style="font-size: 6em"></i>
+                        <h4>Define tu armamento</h4>
+                        <p>Ahora, sólo queda que elijas los elementos que harán que tu personaje sea único. Deberás definir el amuleto, hechizo, habilidad y arma que lo acompañarán a lo largo del juego. Piensa bien en cómo quieres que sea tu personaje en la arena antes de elegir.</p>                   
+                    </div>
+
+                    <div class="col-lg-3 text-center">
+                        <i class="bi bi-4-circle-fill" style="font-size: 6em"></i>
+                        <h4>Guárdalo</h4>
+                        <p>Luego de seguir estos pasos tu personaje ya estará listo. Guardalo en tu localStorage y podrás usarlo en el lanzamiento oficial del juego. Recuerda que cada elección definirá un aspecto único de tu personaje, así que piénsatelo bien!</p>                  
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Personaje 1: El Caballero-->
+        <section class="personaje">
+            <div class="container">
+                <div class="row p-5">
+
+                    <div class="col-xl-8 order-xl-1 d-flex align-items-center p-3" data-aos="fade-right">
+                        <img src="./assets/images/1personaje_caballero.webp" class="img-fluid w-100" alt="El Caballero">
+                    </div>
+
+                    <div class="col-xl-4 order-xl-2 d-flex flex-column justify-content-center align-items-center align-items-xl-start">
+                        <h2>El Caballero</h2>
+                        <p> El Caballero es un <i>“Vessel”</i> descartado, hijo del Rey Pálido y la Dama Blanca, nacidos en el Abismo con “el vacío” dentro de su caparazón. El Rey Pálido buscaba un <i>“Vessel”</i> puro, y como consecuencia del vacío del Caballero, lo descartó junto con el resto de sus hermanos.<br><br>
+                        Al igual que todos los <i>“Vessels”</i>, el Caballero no tiene género.<br><br>
+                        Después de salir de su lugar de nacimiento en el Abismo, el Caballero fue testigo de cómo el Rey Pálido sacaba a su hermano <i>Hollow Knight</i> del Abismo. La entrada al Abismo fue sellada, causando que el Caballero volviera a caer. Algún tiempo después de esto, a pesar de que la entrada estaba sellada, el Caballero y algunos de sus hermanos lograron escapar del Abismo.<br><br>
+                        Eventualmente, el Caballero terminó vagando fuera de Hallownest por razones desconocidas. Pasar tiempo en esta área hizo que el Caballero perdiera la memoria, pero estar allí les dio cierta resistencia.<br><br>
+                        Regresaron a Hallownest después de que saliera una llamada de <i>Hollow Knight</i>, su hermano elegido con aparente <i>“Vessel”</i> puro.
+                        </p>
+                        <button id="seleccionarCaballero" class="seleccionarPersonaje buttonPrincipal" data-personaje="El Caballero">Seleccionar</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--Personaje 2: Hornet-->
+        <section class="personaje">
+            <div class="container">
+                <div class="row p-5">
+
+                    <div class="col-xl-8 order-xl-1 d-flex align-items-center p-3" data-aos="fade-right">
+                        <img src="./assets/images/2personaje_hornet.webp" class="img-fluid w-100" alt="Hornet">
+                    </div>
+
+                    <div class="col-xl-4 order-xl-2 d-flex flex-column justify-content-center align-items-center align-items-xl-start">
+                        <h2>Hornet</h2>
+                        <p>Es la misteriosa princesa protectora de las ruinas de Hallownest, un personaje importante en <i>Hollow Knight</i> y protagonista de <i>“Hollow Knight: Silksong”</i>.<br><br>
+                        Es la hija del Rey Pálido y Herrah la Bestia, la reina de Deepnest. Su nacimiento fue el resultado de un trato para que su madre se convirtiera en "Dreamer", por lo que Hornet pasó muy poco tiempo con su madre.                  
+                        Comparte padre con el Caballero y el resto de los <i>”Vessels"</i>, lo que los convierte en hermanos.<br><br>
+                        Ella maneja una aguja e hilo con destreza mortal. Como es un <i>“boss”</i>, debe ser derrotada dos veces en el juego para desbloquear la entrada en <i>The Journal</i>.
+                        </p>
+                        <button id="seleccionarHornet" class="seleccionarPersonaje buttonPrincipal" data-personaje="Hornet">Seleccionar</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--Personaje 3: Cornifer-->
+        <section class="personaje">
+            <div class="container">
+                <div class="row p-5">
+
+                    <div class="col-xl-8 order-xl-1 d-flex align-items-center p-3" data-aos="fade-right">
+                        <img src="./assets/images/3personaje_cornifer.webp" class="img-fluid w-100" alt="Cornifer">
+                    </div>
+
+                    <div class="col-xl-4 order-xl-2 d-flex flex-column justify-content-center align-items-center align-items-xl-start">
+                        <h2>Cornifer</h2>
+                        <p>Cornifer es un NPC en <i>Hollow Knight</i>. Es cartógrafo y está trabajando en el mapeo de la totalidad de Hallownest.<br><br>
+                        Cuando Cornifer nació se alejó, dejando atrás a sus hermanos y a su madre. Más tarde conoció a su esposa Iselda y se mudaron a Dirtmouth tan pronto como pudieron.<br><br>
+                        Se lo encuentra por primera vez en el fondo de Forgotten Crossroads, donde vende mapas y aconseja al Caballero que visite la tienda de su esposa Iselda en Dirtmouth. Los papeles dispersos en el suelo conducen a su ubicación y su zumbido se puede escuchar desde algunas habitaciones.
+                        </p>
+                        <button id="seleccionarCornifer" class="seleccionarPersonaje buttonPrincipal" data-personaje="Cornifer">Seleccionar</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--Personaje 4: Iselda-->
+        <section class="personaje">
+            <div class="container">
+                <div class="row p-5">
+
+                    <div class="col-xl-8 order-xl-1 d-flex align-items-center p-3" data-aos="fade-right">
+                        <img src="./assets/images/4personaje_iselda.webp" class="img-fluid w-100" alt="Iselda">
+                    </div>
+
+                    <div class="col-xl-4 order-xl-2 d-flex flex-column justify-content-center align-items-center align-items-xl-start">
+                        <h2>Iselda</h2>
+                        <p>Iselda es comerciante en <i>Hollow Knight</i>. Vende mapas y herramientas de mapeo en su tienda en Dirtmouth.<br><br>
+                        Solía ser una luchadora; sin embargo, cuando siguió a su esposo Cornifer, cuya sed de exploración los llevó a Hallownest, dejó su arma para disfrutar de una vida más tranquila.<br><br>
+                        Desea que Cornifer pase más tiempo en casa y se preocupa por su salud y seguridad. Ella siempre se ha negado a unirse a su esposo en sus aventuras más allá de Forgotten Crossroads. Si bien no encuentra mucho interés en la tienda, tiene mucho cuidado en la elaboración de pines de cartografía teniendo en cuenta las necesidades de sus clientes.
+                        </p>
+                        <button id="seleccionarIselda" class="seleccionarPersonaje buttonPrincipal" data-personaje="Iselda">Seleccionar</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    
+        <!-- Contenedor de dados -->
+        <section id="diceSection">
+            <div class="container p-5">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-end">
+                        <button class="cerrarDados buttonSecundario d-flex justify-content-center align-items-center"><i class="bi bi-x" style="font-size: 3em"></i></button>
+                    </div>
+                    <i class="bi bi-dice-6-fill" style="font-size: 4em"></i>
+                    <h4>Tira los dados:</h4>
+                    <div id="diceContainer">
+                        <div id="diceVida">Vida: ?</div>
+                        <div id="diceFuerza">Fuerza: ?</div>
+                        <div id="diceDefensa">Defensa: ?</div>
+                        <button id="tirarDados" class="buttonPrincipal">Tirar dados</button><br>
+                        <button id="guardarValores" class="buttonSecundario">Guardar valores</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        Creado por Brenda Cambellotti
+    </footer>
+    
+<!-- Boostrap CDN -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<!-- Sweet alert CDN -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<!-- JS -->
+<script src="./js/main.js"></script>
+</body>
+</html>
